@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Anamakine: 127.0.0.1
--- Üretim Zamanı: 31 Ara 2024, 01:34:22
+-- Üretim Zamanı: 02 Oca 2025, 10:09:05
 -- Sunucu sürümü: 10.4.32-MariaDB
 -- PHP Sürümü: 8.2.12
 
@@ -18,7 +18,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Veritabanı: `pasazade`
+-- Veritabanı: `pasa`
 --
 
 -- --------------------------------------------------------
@@ -38,7 +38,8 @@ CREATE TABLE `kullanicilar` (
 --
 
 INSERT INTO `kullanicilar` (`id`, `kulad`, `sifre`) VALUES
-(1, 'yonetici', '123');
+(1, 'yonetici', '123'),
+(2, 'ilayda', '1234');
 
 --
 -- Dökümü yapılmış tablolar için indeksler
@@ -48,8 +49,7 @@ INSERT INTO `kullanicilar` (`id`, `kulad`, `sifre`) VALUES
 -- Tablo için indeksler `kullanicilar`
 --
 ALTER TABLE `kullanicilar`
-  ADD PRIMARY KEY (`id`),
-  ADD UNIQUE KEY `kulad` (`kulad`);
+  ADD PRIMARY KEY (`id`);
 
 --
 -- Dökümü yapılmış tablolar için AUTO_INCREMENT değeri
@@ -59,7 +59,7 @@ ALTER TABLE `kullanicilar`
 -- Tablo için AUTO_INCREMENT değeri `kullanicilar`
 --
 ALTER TABLE `kullanicilar`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

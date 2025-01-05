@@ -38,6 +38,9 @@
 # database.default.DBPrefix =
 # database.default.port = 3306
 
+#mongodb
+mongo.uri = mongodb://localhost:27017
+
 # If you use MySQLi as tests, first update the values of Config\Database::$tests.
 # database.tests.hostname = localhost
 # database.tests.database = ci4_test

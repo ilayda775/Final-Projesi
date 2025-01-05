@@ -66,7 +66,8 @@ class Panel extends BaseController
             }
             else
             {
-                return view('tema/header', ['UYARI'=> 'HATALI KULLANICI ADI VEYA ŞİFRE']).view('sayfalar/login').view('tema/footer');
+                echo "HATALI KULLANICI ADI";
+                //return view('tema/header', ['UYARI'=> 'HATALI KULLANICI ADI VEYA ŞİFRE']).view('sayfalar/login').view('tema/footer');
 
             }
             var_dump($sor);
@@ -75,19 +76,5 @@ class Panel extends BaseController
 
     }
 
-    public function kayit()
-    {
-        return view('tema/header').view('sayfalar/kayit').view('tema/footer');
-    }
-
-    public function hakkimizda()
-    {
-        return view('tema/header').view('sayfalar/hakkimizda').view('tema/footer');
-    }
-
-    public function iletisim()
-    {
-        return view('tema/header').view('sayfalar/iletisim').view('tema/footer');
-    }
 }
 ?>

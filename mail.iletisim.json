@@ -1,0 +1,11 @@
+[{
+  "_id": {
+    "$oid": "6777162e6be308260668b5dd"
+  },
+  "ad_soyad": "Ali Veli",
+  "e_mail": "ali.veli@example.com",
+  "konu": "Destek Talebi",
+  "telefon": "1234567890",
+  "mesaj": "Lütfen benimle iletişime geçin.",
+  "cevap": null
+}]

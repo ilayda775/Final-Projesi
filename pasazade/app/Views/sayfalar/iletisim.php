@@ -53,27 +53,30 @@
         </div>
         <div class="row padding-60">
             <div class="col-md-7 contact-team">
-                <h3 class="text-center">Bize<span>Yazın</span></h3>
+                <h3 class="text-center">Bize<span> Yazın</span></h3>
                 <div class="contact-send-message">
                     <form class="contact-form row">
+                        <form action="<?= base_url('admin/iletisimForm') ?>" method="post">
                         <div class="col col-sm-6">
-                            <input type="text" class="form-control" placeholder="Adınız - Soyadınız*">
+                            <input type="text" class="form-control" name="ad_soyad" placeholder="Adınız - Soyadınız*" required>
                         </div>
-                        <div class="col col-sm-6">
-                            <input type="email" class="form-control" placeholder="E-mail adresiniz*">
-                        </div>
-                        <div class="col col-sm-6">
-                            <input type="text" class="form-control" placeholder="Konu*">
-                        </div>
-                        <div class="col col-sm-6">
-                            <input type="text" class="form-control" placeholder="Telefon numaranız*">
-                        </div>
-                        <div class="col col-sm-12">
-                            <textarea class="form-control" placeholder="Mesajınızı yazınız*"></textarea>
-                        </div>
-                        <div class="col col-sm-12 text-center">
+                            <div class="col col-sm-6">
+                            <input type="email" class="form-control" name="e_mail" placeholder="E-mail adresiniz*" required>
+                            </div>
+                            <div class="col col-sm-6">
+                            <input type="text" class="form-control" name="konu" placeholder="Konu*" required>
+                            </div>
+                            <div class="col col-sm-6">
+                            <input type="text" class="form-control" name="telefon" placeholder="Telefon numaranız*" required>
+                            </div>
+                            <div class="col col-sm-12">
+                            <textarea class="form-control" name="mesaj" placeholder="Mesajınızı yazınız*" required></textarea>
+                            </div>
+                            <div class="col col-sm-12 text-center">
                             <button type="submit" class="btn btn-default btn-style hvr-shutter-out-vertical">Gönder</button>
-                        </div>
+                            </div>
+
+                        </form>
                     </form>
                 </div>
             </div>

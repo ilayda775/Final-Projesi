@@ -1,0 +1,303 @@
+CRITICAL - 2025-01-01 14:45:02 --> Error: Call to undefined function validation_list_errors()
+[Method: GET, Route: login]
+in APPPATH\Views\sayfalar\login.php on line 6.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('sayfalar/login', [], true)
+ 4 APPPATH\Controllers\Anasayfa.php(27): view('sayfalar/login')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Anasayfa->login()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-01 15:40:29 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "sayfalar/adfooter.php"
+[Method: GET, Route: login]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('sayfalar/adfooter.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('sayfalar/adfooter', [], true)
+ 3 APPPATH\Controllers\Anasayfa.php(31): view('sayfalar/adfooter')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Anasayfa->login()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-01 15:40:40 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "sayfalar/adfooter.php"
+[Method: GET, Route: login]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('sayfalar/adfooter.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('sayfalar/adfooter', [], true)
+ 3 APPPATH\Controllers\Anasayfa.php(31): view('sayfalar/adfooter')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Anasayfa->login()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-01 15:40:41 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "sayfalar/adfooter.php"
+[Method: GET, Route: login]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('sayfalar/adfooter.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('sayfalar/adfooter', [], true)
+ 3 APPPATH\Controllers\Anasayfa.php(31): view('sayfalar/adfooter')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Anasayfa->login()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-01 15:40:41 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "sayfalar/adfooter.php"
+[Method: GET, Route: login]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('sayfalar/adfooter.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('sayfalar/adfooter', [], true)
+ 3 APPPATH\Controllers\Anasayfa.php(31): view('sayfalar/adfooter')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Anasayfa->login()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-01 15:40:41 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "sayfalar/adfooter.php"
+[Method: GET, Route: login]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('sayfalar/adfooter.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('sayfalar/adfooter', [], true)
+ 3 APPPATH\Controllers\Anasayfa.php(31): view('sayfalar/adfooter')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Anasayfa->login()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-01 15:40:49 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "sayfalar/adfooter.php"
+[Method: GET, Route: login]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('sayfalar/adfooter.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('sayfalar/adfooter', [], true)
+ 3 APPPATH\Controllers\Anasayfa.php(31): view('sayfalar/adfooter')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Anasayfa->login()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-01 15:41:39 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "sayfalar/adfooter.php"
+[Method: GET, Route: login]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('sayfalar/adfooter.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('sayfalar/adfooter', [], true)
+ 3 APPPATH\Controllers\Anasayfa.php(31): view('sayfalar/adfooter')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Anasayfa->login()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-01 15:41:40 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "sayfalar/adfooter.php"
+[Method: GET, Route: login]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('sayfalar/adfooter.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('sayfalar/adfooter', [], true)
+ 3 APPPATH\Controllers\Anasayfa.php(31): view('sayfalar/adfooter')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Anasayfa->login()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-01 15:41:45 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "sayfalar/adfooter.php"
+[Method: GET, Route: login]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('sayfalar/adfooter.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('sayfalar/adfooter', [], true)
+ 3 APPPATH\Controllers\Anasayfa.php(31): view('sayfalar/adfooter')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Anasayfa->login()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-01 15:42:24 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "sayfalar/adfooter.php"
+[Method: GET, Route: login]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('sayfalar/adfooter.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('sayfalar/adfooter', [], true)
+ 3 APPPATH\Controllers\Anasayfa.php(31): view('sayfalar/adfooter')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Anasayfa->login()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-01 15:42:25 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "sayfalar/adfooter.php"
+[Method: GET, Route: login]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('sayfalar/adfooter.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('sayfalar/adfooter', [], true)
+ 3 APPPATH\Controllers\Anasayfa.php(31): view('sayfalar/adfooter')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Anasayfa->login()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-01 15:42:26 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "sayfalar/adfooter.php"
+[Method: GET, Route: login]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('sayfalar/adfooter.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('sayfalar/adfooter', [], true)
+ 3 APPPATH\Controllers\Anasayfa.php(31): view('sayfalar/adfooter')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Anasayfa->login()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-01 15:42:26 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "sayfalar/adfooter.php"
+[Method: GET, Route: login]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('sayfalar/adfooter.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('sayfalar/adfooter', [], true)
+ 3 APPPATH\Controllers\Anasayfa.php(31): view('sayfalar/adfooter')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Anasayfa->login()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-01 15:42:26 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "sayfalar/adfooter.php"
+[Method: GET, Route: login]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('sayfalar/adfooter.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('sayfalar/adfooter', [], true)
+ 3 APPPATH\Controllers\Anasayfa.php(31): view('sayfalar/adfooter')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Anasayfa->login()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-01 15:43:07 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "sayfalar/adfooter.php"
+[Method: GET, Route: login]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('sayfalar/adfooter.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('sayfalar/adfooter', [], true)
+ 3 APPPATH\Controllers\Anasayfa.php(31): view('sayfalar/adfooter')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Anasayfa->login()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-01 15:43:08 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "sayfalar/adfooter.php"
+[Method: GET, Route: login]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('sayfalar/adfooter.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('sayfalar/adfooter', [], true)
+ 3 APPPATH\Controllers\Anasayfa.php(31): view('sayfalar/adfooter')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Anasayfa->login()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-01 15:43:08 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "sayfalar/adfooter.php"
+[Method: GET, Route: login]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('sayfalar/adfooter.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('sayfalar/adfooter', [], true)
+ 3 APPPATH\Controllers\Anasayfa.php(31): view('sayfalar/adfooter')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Anasayfa->login()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-01 15:43:08 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "sayfalar/adfooter.php"
+[Method: GET, Route: login]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('sayfalar/adfooter.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('sayfalar/adfooter', [], true)
+ 3 APPPATH\Controllers\Anasayfa.php(31): view('sayfalar/adfooter')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Anasayfa->login()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-01 15:45:10 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "sayfalar/adfooter.php"
+[Method: GET, Route: login]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('sayfalar/adfooter.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('sayfalar/adfooter', [], true)
+ 3 APPPATH\Controllers\Anasayfa.php(31): view('sayfalar/adfooter')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Anasayfa->login()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-01 15:45:11 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "sayfalar/adfooter.php"
+[Method: GET, Route: login]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('sayfalar/adfooter.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('sayfalar/adfooter', [], true)
+ 3 APPPATH\Controllers\Anasayfa.php(31): view('sayfalar/adfooter')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Anasayfa->login()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-01 15:45:54 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "sayfalar/adfooter.php"
+[Method: GET, Route: login]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('sayfalar/adfooter.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('sayfalar/adfooter', [], true)
+ 3 APPPATH\Controllers\Anasayfa.php(31): view('sayfalar/adfooter')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Anasayfa->login()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-01 15:47:43 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "sayfalar/adfooter.php"
+[Method: GET, Route: login]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('sayfalar/adfooter.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('sayfalar/adfooter', [], true)
+ 3 APPPATH\Controllers\Anasayfa.php(31): view('sayfalar/adfooter')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Anasayfa->login()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-01 15:59:29 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "sayfalar/adfooter.php"
+[Method: GET, Route: login]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('sayfalar/adfooter.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('sayfalar/adfooter', [], true)
+ 3 APPPATH\Controllers\Anasayfa.php(31): view('sayfalar/adfooter')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Anasayfa->login()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-01 23:15:14 --> ErrorException: Undefined variable $session
+[Method: GET, Route: panel]
+in APPPATH\Views\tema\header.php on line 103.
+ 1 APPPATH\Views\tema\header.php(103): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\xampp\\htdocs\\pasazade\\app\\Views\\tema\\header.php', 103)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\pasazade\\app\\Views\\tema\\header.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('tema/header', [], true)
+ 5 APPPATH\Controllers\Anasayfa.php(99): view('tema/header')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Anasayfa->panel()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

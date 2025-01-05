@@ -1,0 +1,348 @@
+CRITICAL - 2025-01-04 16:21:43 --> ErrorException: require(vendor/autoload.php): Failed to open stream: No such file or directory
+[Method: GET, Route: iletisim_liste]
+in APPPATH\Views\sayfalar\iletisim_liste.php on line 2.
+ 1 APPPATH\Views\sayfalar\iletisim_liste.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(vendor/autoload.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\pasazade\\app\\Views\\sayfalar\\iletisim_liste.php', 2)
+ 2 APPPATH\Views\sayfalar\iletisim_liste.php(2): require()
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\pasazade\\app\\Views\\sayfalar\\iletisim_liste.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('sayfalar/iletisim_liste', [], true)
+ 6 APPPATH\Controllers\Anasayfa.php(100): view('sayfalar/iletisim_liste')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Anasayfa->iletisim_liste()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-04 16:21:45 --> ErrorException: require(vendor/autoload.php): Failed to open stream: No such file or directory
+[Method: GET, Route: iletisim_liste]
+in APPPATH\Views\sayfalar\iletisim_liste.php on line 2.
+ 1 APPPATH\Views\sayfalar\iletisim_liste.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(vendor/autoload.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\pasazade\\app\\Views\\sayfalar\\iletisim_liste.php', 2)
+ 2 APPPATH\Views\sayfalar\iletisim_liste.php(2): require()
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\pasazade\\app\\Views\\sayfalar\\iletisim_liste.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('sayfalar/iletisim_liste', [], true)
+ 6 APPPATH\Controllers\Anasayfa.php(100): view('sayfalar/iletisim_liste')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Anasayfa->iletisim_liste()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-04 16:38:42 --> ErrorException: require(vendor/autoload.php): Failed to open stream: No such file or directory
+[Method: GET, Route: iletisim_liste]
+in APPPATH\Views\sayfalar\iletisim_liste.php on line 2.
+ 1 APPPATH\Views\sayfalar\iletisim_liste.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(vendor/autoload.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\pasazade\\app\\Views\\sayfalar\\iletisim_liste.php', 2)
+ 2 APPPATH\Views\sayfalar\iletisim_liste.php(2): require()
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\pasazade\\app\\Views\\sayfalar\\iletisim_liste.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('sayfalar/iletisim_liste', [], true)
+ 6 APPPATH\Controllers\Anasayfa.php(100): view('sayfalar/iletisim_liste')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Anasayfa->iletisim_liste()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-04 16:38:43 --> ErrorException: require(vendor/autoload.php): Failed to open stream: No such file or directory
+[Method: GET, Route: iletisim_liste]
+in APPPATH\Views\sayfalar\iletisim_liste.php on line 2.
+ 1 APPPATH\Views\sayfalar\iletisim_liste.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(vendor/autoload.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\pasazade\\app\\Views\\sayfalar\\iletisim_liste.php', 2)
+ 2 APPPATH\Views\sayfalar\iletisim_liste.php(2): require()
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\pasazade\\app\\Views\\sayfalar\\iletisim_liste.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('sayfalar/iletisim_liste', [], true)
+ 6 APPPATH\Controllers\Anasayfa.php(100): view('sayfalar/iletisim_liste')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Anasayfa->iletisim_liste()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-04 16:38:47 --> ErrorException: require(vendor/autoload.php): Failed to open stream: No such file or directory
+[Method: GET, Route: iletisim_liste]
+in APPPATH\Views\sayfalar\iletisim_liste.php on line 2.
+ 1 APPPATH\Views\sayfalar\iletisim_liste.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(vendor/autoload.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\pasazade\\app\\Views\\sayfalar\\iletisim_liste.php', 2)
+ 2 APPPATH\Views\sayfalar\iletisim_liste.php(2): require()
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\pasazade\\app\\Views\\sayfalar\\iletisim_liste.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('sayfalar/iletisim_liste', [], true)
+ 6 APPPATH\Controllers\Anasayfa.php(100): view('sayfalar/iletisim_liste')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Anasayfa->iletisim_liste()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-04 16:44:36 --> ErrorException: require(vendor/autoload.php): Failed to open stream: No such file or directory
+[Method: GET, Route: iletisim_liste]
+in APPPATH\Views\sayfalar\iletisim_liste.php on line 2.
+ 1 APPPATH\Views\sayfalar\iletisim_liste.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(vendor/autoload.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\pasazade\\app\\Views\\sayfalar\\iletisim_liste.php', 2)
+ 2 APPPATH\Views\sayfalar\iletisim_liste.php(2): require()
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\pasazade\\app\\Views\\sayfalar\\iletisim_liste.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('sayfalar/iletisim_liste', [], true)
+ 6 APPPATH\Controllers\Anasayfa.php(100): view('sayfalar/iletisim_liste')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Anasayfa->iletisim_liste()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-04 16:44:44 --> ErrorException: require(vendor/autoload.php): Failed to open stream: No such file or directory
+[Method: GET, Route: iletisim_liste]
+in APPPATH\Views\sayfalar\iletisim_liste.php on line 2.
+ 1 APPPATH\Views\sayfalar\iletisim_liste.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(vendor/autoload.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\pasazade\\app\\Views\\sayfalar\\iletisim_liste.php', 2)
+ 2 APPPATH\Views\sayfalar\iletisim_liste.php(2): require()
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\pasazade\\app\\Views\\sayfalar\\iletisim_liste.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('sayfalar/iletisim_liste', [], true)
+ 6 APPPATH\Controllers\Anasayfa.php(100): view('sayfalar/iletisim_liste')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Anasayfa->iletisim_liste()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-04 16:49:07 --> ErrorException: require(vendor/autoload.php): Failed to open stream: No such file or directory
+[Method: GET, Route: iletisim_liste]
+in APPPATH\Views\sayfalar\iletisim_liste.php on line 2.
+ 1 APPPATH\Views\sayfalar\iletisim_liste.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(vendor/autoload.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\pasazade\\app\\Views\\sayfalar\\iletisim_liste.php', 2)
+ 2 APPPATH\Views\sayfalar\iletisim_liste.php(2): require()
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\pasazade\\app\\Views\\sayfalar\\iletisim_liste.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('sayfalar/iletisim_liste', [], true)
+ 6 APPPATH\Controllers\Anasayfa.php(100): view('sayfalar/iletisim_liste')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Anasayfa->iletisim_liste()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-04 16:51:31 --> Error: Class "MongoDB\Client" not found
+[Method: GET, Route: iletisim_liste]
+in APPPATH\Views\sayfalar\iletisim_liste.php on line 7.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('sayfalar/iletisim_liste', [], true)
+ 4 APPPATH\Controllers\Anasayfa.php(100): view('sayfalar/iletisim_liste')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Anasayfa->iletisim_liste()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-04 16:58:40 --> Error: Class "MongoDB\Client" not found
+[Method: GET, Route: iletisim_liste]
+in APPPATH\Views\sayfalar\iletisim_liste.php on line 7.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('sayfalar/iletisim_liste', [], true)
+ 4 APPPATH\Controllers\Anasayfa.php(100): view('sayfalar/iletisim_liste')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Anasayfa->iletisim_liste()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-04 17:13:11 --> Error: Class "MongoDB\Client" not found
+[Method: GET, Route: iletisim_liste]
+in APPPATH\Views\sayfalar\iletisim_liste.php on line 7.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('sayfalar/iletisim_liste', [], true)
+ 4 APPPATH\Controllers\Anasayfa.php(100): view('sayfalar/iletisim_liste')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Anasayfa->iletisim_liste()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-04 17:14:02 --> Error: Class "MongoDB\Client" not found
+[Method: GET, Route: iletisim_liste]
+in APPPATH\Views\sayfalar\iletisim_liste.php on line 7.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('sayfalar/iletisim_liste', [], true)
+ 4 APPPATH\Controllers\Anasayfa.php(100): view('sayfalar/iletisim_liste')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Anasayfa->iletisim_liste()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-04 17:38:04 --> Error: Class "MongoDB\Client" not found
+[Method: GET, Route: iletisim_liste]
+in APPPATH\Views\sayfalar\iletisim_liste.php on line 7.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('sayfalar/iletisim_liste', [], true)
+ 4 APPPATH\Controllers\Anasayfa.php(100): view('sayfalar/iletisim_liste')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Anasayfa->iletisim_liste()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-04 17:39:41 --> ErrorException: require(vendor/autoload.php): Failed to open stream: No such file or directory
+[Method: GET, Route: iletisim_liste]
+in APPPATH\Views\sayfalar\iletisim_liste.php on line 8.
+ 1 APPPATH\Views\sayfalar\iletisim_liste.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(vendor/autoload.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\pasazade\\app\\Views\\sayfalar\\iletisim_liste.php', 8)
+ 2 APPPATH\Views\sayfalar\iletisim_liste.php(8): require()
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\pasazade\\app\\Views\\sayfalar\\iletisim_liste.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('sayfalar/iletisim_liste', [], true)
+ 6 APPPATH\Controllers\Anasayfa.php(100): view('sayfalar/iletisim_liste')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Anasayfa->iletisim_liste()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-04 17:39:49 --> ErrorException: require(vendor/autoload.php): Failed to open stream: No such file or directory
+[Method: GET, Route: iletisim_liste]
+in APPPATH\Views\sayfalar\iletisim_liste.php on line 8.
+ 1 APPPATH\Views\sayfalar\iletisim_liste.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(vendor/autoload.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\pasazade\\app\\Views\\sayfalar\\iletisim_liste.php', 8)
+ 2 APPPATH\Views\sayfalar\iletisim_liste.php(8): require()
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\pasazade\\app\\Views\\sayfalar\\iletisim_liste.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('sayfalar/iletisim_liste', [], true)
+ 6 APPPATH\Controllers\Anasayfa.php(100): view('sayfalar/iletisim_liste')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Anasayfa->iletisim_liste()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-04 17:40:21 --> Error: Class "MongoDB\Client" not found
+[Method: GET, Route: iletisim_liste]
+in APPPATH\Views\sayfalar\iletisim_liste.php on line 11.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('sayfalar/iletisim_liste', [], true)
+ 4 APPPATH\Controllers\Anasayfa.php(100): view('sayfalar/iletisim_liste')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Anasayfa->iletisim_liste()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-04 17:41:49 --> ErrorException: require(vendor/autoload.php): Failed to open stream: No such file or directory
+[Method: GET, Route: iletisim_liste]
+in APPPATH\Views\sayfalar\iletisim_liste.php on line 3.
+ 1 APPPATH\Views\sayfalar\iletisim_liste.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(vendor/autoload.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\pasazade\\app\\Views\\sayfalar\\iletisim_liste.php', 3)
+ 2 APPPATH\Views\sayfalar\iletisim_liste.php(3): require()
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\pasazade\\app\\Views\\sayfalar\\iletisim_liste.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('sayfalar/iletisim_liste', [], true)
+ 6 APPPATH\Controllers\Anasayfa.php(100): view('sayfalar/iletisim_liste')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Anasayfa->iletisim_liste()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-04 17:45:12 --> ErrorException: require(vendor/autoload.php): Failed to open stream: No such file or directory
+[Method: GET, Route: iletisim_liste]
+in APPPATH\Views\sayfalar\iletisim_liste.php on line 2.
+ 1 APPPATH\Views\sayfalar\iletisim_liste.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(vendor/autoload.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\pasazade\\app\\Views\\sayfalar\\iletisim_liste.php', 2)
+ 2 APPPATH\Views\sayfalar\iletisim_liste.php(2): require()
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\pasazade\\app\\Views\\sayfalar\\iletisim_liste.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('sayfalar/iletisim_liste', [], true)
+ 6 APPPATH\Controllers\Anasayfa.php(100): view('sayfalar/iletisim_liste')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Anasayfa->iletisim_liste()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-04 17:50:49 --> ErrorException: require(vendor/autoload.php): Failed to open stream: No such file or directory
+[Method: GET, Route: iletisim_liste]
+in APPPATH\Views\sayfalar\iletisim_liste.php on line 2.
+ 1 APPPATH\Views\sayfalar\iletisim_liste.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(vendor/autoload.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\pasazade\\app\\Views\\sayfalar\\iletisim_liste.php', 2)
+ 2 APPPATH\Views\sayfalar\iletisim_liste.php(2): require()
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\pasazade\\app\\Views\\sayfalar\\iletisim_liste.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('sayfalar/iletisim_liste', [], true)
+ 6 APPPATH\Controllers\Anasayfa.php(100): view('sayfalar/iletisim_liste')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Anasayfa->iletisim_liste()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-04 17:50:51 --> ErrorException: require(vendor/autoload.php): Failed to open stream: No such file or directory
+[Method: GET, Route: iletisim_liste]
+in APPPATH\Views\sayfalar\iletisim_liste.php on line 2.
+ 1 APPPATH\Views\sayfalar\iletisim_liste.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(vendor/autoload.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\pasazade\\app\\Views\\sayfalar\\iletisim_liste.php', 2)
+ 2 APPPATH\Views\sayfalar\iletisim_liste.php(2): require()
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\pasazade\\app\\Views\\sayfalar\\iletisim_liste.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('sayfalar/iletisim_liste', [], true)
+ 6 APPPATH\Controllers\Anasayfa.php(100): view('sayfalar/iletisim_liste')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Anasayfa->iletisim_liste()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-04 18:11:51 --> ErrorException: require(vendor/autoload.php): Failed to open stream: No such file or directory
+[Method: GET, Route: iletisim_liste]
+in APPPATH\Views\sayfalar\iletisim_liste.php on line 6.
+ 1 APPPATH\Views\sayfalar\iletisim_liste.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(vendor/autoload.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\pasazade\\app\\Views\\sayfalar\\iletisim_liste.php', 6)
+ 2 APPPATH\Views\sayfalar\iletisim_liste.php(6): require()
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\pasazade\\app\\Views\\sayfalar\\iletisim_liste.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('sayfalar/iletisim_liste', [], true)
+ 6 APPPATH\Controllers\Anasayfa.php(100): view('sayfalar/iletisim_liste')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Anasayfa->iletisim_liste()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-04 18:12:22 --> ErrorException: require(vendor/autoload.php): Failed to open stream: No such file or directory
+[Method: GET, Route: iletisim_liste]
+in APPPATH\Views\sayfalar\iletisim_liste.php on line 6.
+ 1 APPPATH\Views\sayfalar\iletisim_liste.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(vendor/autoload.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\pasazade\\app\\Views\\sayfalar\\iletisim_liste.php', 6)
+ 2 APPPATH\Views\sayfalar\iletisim_liste.php(6): require()
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\pasazade\\app\\Views\\sayfalar\\iletisim_liste.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('sayfalar/iletisim_liste', [], true)
+ 6 APPPATH\Controllers\Anasayfa.php(100): view('sayfalar/iletisim_liste')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Anasayfa->iletisim_liste()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-04 18:26:10 --> ErrorException: require(vendor/autoload.php): Failed to open stream: No such file or directory
+[Method: GET, Route: iletisim_liste]
+in APPPATH\Views\sayfalar\iletisim_liste.php on line 6.
+ 1 APPPATH\Views\sayfalar\iletisim_liste.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(vendor/autoload.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\pasazade\\app\\Views\\sayfalar\\iletisim_liste.php', 6)
+ 2 APPPATH\Views\sayfalar\iletisim_liste.php(6): require()
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\pasazade\\app\\Views\\sayfalar\\iletisim_liste.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('sayfalar/iletisim_liste', [], true)
+ 6 APPPATH\Controllers\Anasayfa.php(100): view('sayfalar/iletisim_liste')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Anasayfa->iletisim_liste()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-04 18:32:10 --> ErrorException: require(vendor/autoload.php): Failed to open stream: No such file or directory
+[Method: GET, Route: iletisim_liste]
+in APPPATH\Views\sayfalar\iletisim_liste.php on line 6.
+ 1 APPPATH\Views\sayfalar\iletisim_liste.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(vendor/autoload.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\pasazade\\app\\Views\\sayfalar\\iletisim_liste.php', 6)
+ 2 APPPATH\Views\sayfalar\iletisim_liste.php(6): require()
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\pasazade\\app\\Views\\sayfalar\\iletisim_liste.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('sayfalar/iletisim_liste', [], true)
+ 6 APPPATH\Controllers\Anasayfa.php(100): view('sayfalar/iletisim_liste')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Anasayfa->iletisim_liste()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anasayfa))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

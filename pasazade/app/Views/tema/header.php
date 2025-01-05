@@ -1,5 +1,4 @@
 <html lang="tr">
-
 <!-- Mirrored from synchrotheme.com/theme/sbiz/index-4.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 26 Sep 2023 11:17:30 GMT -->
 <head>
     <title>Business: Business Multipurpose HTML template</title>
@@ -9,7 +8,6 @@
     <meta name="description" content="Business: Business Multipurpose HTML template">
     <meta name="keywords" content="bootweb, multipurpose, portfolio, personal, developer, designer, onepage, clean, minimal, modern, tdrana, me">
     <meta name="author" content="Tanmoy Dhar">
-
     <!-- All CSS Files -->
     <link rel="shortcut icon" href="#" type="image/png">
     <link rel="stylesheet" href="<?=base_url()?>assets/css/bootstrap.min.css">
@@ -26,7 +24,6 @@
     <link rel="stylesheet" href="<?=base_url()?>assets/css/style.css">
     <link rel="stylesheet" href="<?=base_url()?>assets/css/responsive.css">
     <link id="colors" rel="stylesheet" href="<?=base_url()?>assets/css/colors/defaults-color.css">
-
 </head>
 <body>
 <!-- ==== Preloader start ==== -->
@@ -66,7 +63,6 @@
             </div>
         </div>
     </div>
-
     <div class="menu-area">
         <div class="container">
             <div class="row">
@@ -86,7 +82,6 @@
                         <nav>
                             <ul id="navigation">
                                 <li class="current-page-item"><a href="<?=base_url('anasayfa')?>">Ana Sayfa</a>
-
                                 </li>
                                 <li>
                                     <a href="<?=base_url('hakkimizda')?>">
@@ -102,9 +97,50 @@
                                 <li>
                                     <a href="<?=base_url('haberler')?>">Haberler</a>
                                 </li>
-                                <li><a href="<?=base_url('iletisim')?>">İletişim</a></li>
-                                <li><a href="<?=base_url('login')?>"><span style="background-color: darkred; color: white;">ÜYE GİRİŞİ</span></a></li>
-                                <li><a href="<?=base_url('kayit')?>"><span style="background-color: darkblue; color: white;">KAYIT OL</span></a></li>
+                                <li><a href="<?= base_url('iletisim') ?>">İletişim</a></li>
+
+                                <li>
+                                    <?php
+                                    $session = session();
+                                    if ($session->has('durum') && $session->get('durum')) {
+                                        $kulad = $session->get('kulad') ?? 'Bilinmiyor'; // Kullanıcı adı kontrolü
+                                        ?>
+                                        <a href="<?= base_url('logout') ?>" onclick="event.preventDefault(); logoutFormSubmit();">
+            <span style="background-color: darkred; color: white;">
+                (Çıkış Yap)
+            </span>
+                                        </a>
+                                        <form id="logout-form" action="<?= base_url('logout') ?>" method="post" style="display: none;">
+                                            <?= csrf_field() ?>
+                                        </form>
+                                    <?php } else { ?>
+                                        <a href="<?= base_url('login') ?>">
+                                            <span style="background-color: darkred; color: white;">PANEL GİRİŞ</span>
+                                        </a>
+                                    <?php } ?>
+                                </li>
+
+                                <?php if ($session->has('durum') && $session->get('durum')): ?>
+                                    <li>
+    <span style="background-color: darkred; color: white;">
+       <a href="<?= base_url('panel') ?>"> <span style="background-color: darkred; color: white;"> ADMİN : <?= htmlspecialchars($kulad) ?></span></a>
+    </span>
+                                    </li>
+                                <?php endif; ?>
+
+                                <script>
+                                    function logoutFormSubmit() {
+                                        const logoutForm = document.getElementById('logout-form');
+                                        if (logoutForm) {
+                                            logoutForm.submit();
+                                        } else {
+                                            console.error("Logout form bulunamadı!");
+                                        }
+                                    }
+                                </script>
+
+
+
                             </ul>
                         </nav>
                     </div>
@@ -114,3 +150,4 @@
     </div>
 </header>
 <!-- Header End -->
+</html>
