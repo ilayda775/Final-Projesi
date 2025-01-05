@@ -22,4 +22,6 @@ $routes->get('admin/iletisimler', 'Admin::iletisimler');
 $routes->post('admin/cevapla/(:segment)', 'Admin::cevapla/$1');
 $routes->get('iletisim_liste', 'Anasayfa::iletisim_liste');
 $routes->get('admin/iletiler', 'Admin::iletiler'); // İletileri listeleme
+$routes->get('mongotest', 'MongoTest::index');
+
 

@@ -12,21 +12,27 @@
     </tr>
     </thead>
     <tbody>
-    <?php foreach ($iletisimler as $iletisim): ?>
+    <?php if (!empty($iletisimler)): ?>
+        <?php foreach ($iletisimler as $iletisim): ?>
+            <tr>
+                <td><?= $iletisim['ad_soyad'] ?? 'Bilinmiyor' ?></td>
+                <td><?= $iletisim['e_mail'] ?? 'Bilinmiyor' ?></td>
+                <td><?= $iletisim['konu'] ?? 'Bilinmiyor' ?></td>
+                <td><?= $iletisim['telefon'] ?? 'Bilinmiyor' ?></td>
+                <td><?= $iletisim['mesaj'] ?? 'Bilinmiyor' ?></td>
+                <td><?= empty($iletisim['cevap']) ? 'Henüz cevaplanmadı' : $iletisim['cevap'] ?></td>
+                <td>
+                    <form action="<?= base_url('admin/cevapla/' . (string) $iletisim['_id']) ?>" method="post">
+                        <input type="text" name="cevap" placeholder="Cevabınızı yazın" required>
+                        <button type="submit">Cevapla</button>
+                    </form>
+                </td>
+            </tr>
+        <?php endforeach; ?>
+    <?php else: ?>
         <tr>
-            <td><?= $iletisim['ad_soyad'] ?></td>
-            <td><?= $iletisim['e_mail'] ?></td>
-            <td><?= $iletisim['konu'] ?></td>
-            <td><?= $iletisim['telefon'] ?></td>
-            <td><?= $iletisim['mesaj'] ?></td>
-            <td><?= $iletisim['cevap'] ?: 'Henüz cevaplanmadı' ?></td>
-            <td>
-                <form action="<?= base_url('admin/cevapla/' . $iletisim['_id']) ?>" method="post">
-                    <input type="text" name="cevap" placeholder="Cevabınızı yazın" required>
-                    <button type="submit">Cevapla</button>
-                </form>
-            </td>
+            <td colspan="7">Henüz herhangi bir iletişim mesajı yok.</td>
         </tr>
-    <?php endforeach; ?>
+    <?php endif; ?>
     </tbody>
 </table>

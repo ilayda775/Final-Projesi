@@ -13,34 +13,64 @@ class Admin extends BaseController
         $this->panelModel = new PanelModel();
     }
 
-    // İletişim formu verisini kaydetme
+
     public function iletisimForm()
     {
-        if ($this->request->getMethod() == 'post') {
-            // Formdan gelen veriyi al
-            $data = [
-                'ad_soyad' => $this->request->getPost('ad_soyad'),
-                'e_mail' => $this->request->getPost('e_mail'),
-                'konu' => $this->request->getPost('konu'),
-                'telefon' => $this->request->getPost('telefon'),
-                'mesaj' => $this->request->getPost('mesaj'),
-                'cevap' => null // Başlangıçta cevap yok
-            ];
+        $validation = \Config\Services::validation();
 
-            // Veriyi kaydet
-            $this->panelModel->saveMessage($data);
+        $validation->setRules([
+            'ad_soyad' => 'required|min_length[3]|max_length[50]',
+            'e_mail' => 'required|valid_email',
+            'konu' => 'required|min_length[3]|max_length[100]',
+            'telefon' => 'required|numeric',
+            'mesaj' => 'required|min_length[10]'
+        ]);
 
-            // Başarı mesajı ve yönlendirme
-            return redirect()->to('/iletisim')->with('success', 'Mesajınız başarıyla gönderildi.');
+        if (!$validation->withRequest($this->request)->run()) {
+            return redirect()->back()->withInput()->with('errors', $validation->getErrors());
         }
 
-        return view('sayfalar/iletisim');
+
+        $data = [
+            'ad_soyad' => $this->request->getPost('ad_soyad'),
+            'e_mail' => $this->request->getPost('e_mail'),
+            'konu' => $this->request->getPost('konu'),
+            'telefon' => $this->request->getPost('telefon'),
+            'mesaj' => $this->request->getPost('mesaj'),
+            'cevap' => null // Başlangıçta cevap yok
+        ];
+
+
+        $this->panelModel->saveMessage($data);
+
+        return redirect()->to('/iletisim')->with('success', 'Mesajınız başarıyla gönderildi.');
     }
 
-    // Gelen iletileri listeleme
+
+
     public function iletiler()
     {
+        // Modelden tüm iletileri al
         $data['iletisimler'] = $this->panelModel->getAllMessages();
+
+
         return view('sayfalar/iletisim_liste', $data);
     }
+
+    public function cevapla($id)
+    {
+        if ($this->request->getMethod() == 'post') {
+            $cevap = $this->request->getPost('cevap');
+
+            $objectId = new \MongoDB\BSON\ObjectId($id);
+
+
+            $this->panelModel->updateMessage($objectId, $cevap);
+
+
+            return redirect()->to('/admin/iletiler')->with('success', 'Cevap başarıyla kaydedildi.');
+        }
+    }
+
+
 }

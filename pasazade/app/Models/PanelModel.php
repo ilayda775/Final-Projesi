@@ -10,22 +10,33 @@ class PanelModel
 
     public function __construct()
     {
-        // MongoDB bağlantısını başlat
-        $this->mongo = new Client("mongodb://localhost:27017"); // Bağlantı stringi doğru olmalı
+
+        $this->mongo = new Client("mongodb://localhost:27017");
     }
 
-    // Veri ekleme
+
     public function saveMessage($data)
     {
-        $collection = $this->mongo->mail->iletisim; // mail veritabanındaki iletisim koleksiyonu
-        $collection->insertOne($data); // Veriyi koleksiyona ekleyin
+        $collection = $this->mongo->mail->iletisim;
+        $collection->insertOne($data);
     }
 
-    // Verileri okuma
+
     public function getAllMessages()
     {
         $collection = $this->mongo->mail->iletisim;
-        return $collection->find()->toArray(); // Veritabanından tüm verileri alın
+        return $collection->find()->toArray();
     }
+
+    public function updateMessage($id, $cevap)
+    {
+        $collection = $this->mongo->mail->iletisim;
+        $collection->updateOne(
+            ['_id' => $id],
+            ['$set' => ['cevap' => $cevap]]
+        );
+    }
+
+
 }
 
